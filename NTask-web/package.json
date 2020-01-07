@@ -1,0 +1,21 @@
+{
+  "name": "ntask-web",
+  "version": "1.0.0",
+  "description": "App cliente para o NTask",
+  "scripts": {
+    "start": "npm run build & npm run server",
+    "server": "http-server public -p 3001",
+    "build": "npm run browserify & npm run uglify",
+    "browserify": "browserify src -t babelify -o public/js/app.js",
+    "uglify": "uglify -s public/js/app.js"
+  },
+  "author": "Linnik Maciel de Souza",
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "browser-request": "^0.3.3",
+    "browserify": "^16.5.0",
+    "http-server": "^0.12.0",
+    "tiny-emitter": "^2.1.0",
+    "uglify": "^0.1.5"
+  }
+}
