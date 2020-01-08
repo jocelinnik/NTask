@@ -7,15 +7,15 @@
     "server": "http-server public -p 3001",
     "build": "npm run browserify & npm run uglify",
     "browserify": "browserify src -t babelify -o public/js/app.js",
-    "uglify": "uglify -s public/js/app.js"
+    "uglify": "uglify -s public/js/app.js -o public/js/app.min.js"
   },
   "author": "Linnik Maciel de Souza",
   "dependencies": {
-    "babelify": "^10.0.0",
+    "babelify": "^6.3.0",
     "browser-request": "^0.3.3",
-    "browserify": "^16.5.0",
-    "http-server": "^0.12.0",
-    "tiny-emitter": "^2.1.0",
+    "browserify": "^11.2.0",
+    "http-server": "^0.8.4",
+    "tiny-emitter": "^1.0.0",
     "uglify": "^0.1.5"
   }
 }

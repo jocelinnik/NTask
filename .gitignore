@@ -1,3 +1,8 @@
 NTask-API/node_modules/
+NTask-API/ntask.sqlite
+NTask-API/ntask_test.sqlite
+NTask-API/public/apidoc
+NTask-API/logs/*.log
+
+
 NTask-web/node_modules/
-aux.html

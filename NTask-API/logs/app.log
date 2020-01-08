@@ -686,3 +686,400 @@
 {"message":"::1 - - [07/Jan/2020:21:58:06 +0000] \"GET /apidoc/utils/handlebars_helper.js?v=1578434286094 HTTP/1.1\" 200 -\n","level":"info"}
 {"message":"::1 - - [07/Jan/2020:21:58:06 +0000] \"GET /apidoc/vendor/diff_match_patch.min.js?v=1578434286094 HTTP/1.1\" 200 -\n","level":"info"}
 {"message":"::1 - - [07/Jan/2020:21:58:35 +0000] \"GET / HTTP/1.1\" 200 29\n","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:31:12 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [08/Jan/2020:17:33:11 +0000] \"GET / HTTP/1.1\" 200 29\n","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:36:59 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:46:18 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 13:56:55 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:03:11 +0000] \"OPTIONS /users HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:03:12 +0000] \"POST /users HTTP/1.1\" 412 49\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:03:35 +0000] \"OPTIONS /users HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:03:35 +0000] \"POST /users HTTP/1.1\" 412 49\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:08:22 +0000] \"OPTIONS /users HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:08:22 +0000] \"POST /users HTTP/1.1\" 412 49\n","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:11:30 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:23:22 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 14:44:47 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:46:04 +0000] \"OPTIONS /users HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:46:04 +0000] \"POST /users HTTP/1.1\" 412 49\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:46:20 +0000] \"OPTIONS /users HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:46:20 +0000] \"POST /users HTTP/1.1\" 412 49\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:46:24 +0000] \"GET /users HTTP/1.1\" 404 144\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:53:53 +0000] \"OPTIONS /token HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"[Wed Jan 08 2020 14:53:53 GMT-0400 (GMT-04:00)] Executing (default): SELECT `id`, `name`, `email`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `Users` WHERE `Users`.`email` = 'lms2@icomp.ufam.edu.br';","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:53:53 +0000] \"POST /token HTTP/1.1\" 401 12\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:18:59:10 +0000] \"GET / HTTP/1.1\" 200 29\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:19:13:33 +0000] \"OPTIONS /token HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"[Wed Jan 08 2020 15:13:33 GMT-0400 (GMT-04:00)] Executing (default): SELECT `id`, `name`, `email`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `Users` WHERE `Users`.`email` = 'lms2@icomp.ufam.edu.br';","level":"info"}
+{"message":"::1 - - [08/Jan/2020:19:13:33 +0000] \"POST /token HTTP/1.1\" 401 12\n","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 17:55:21 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"::1 - - [08/Jan/2020:21:58:04 +0000] \"OPTIONS /users HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:21:58:04 +0000] \"POST /users HTTP/1.1\" 412 49\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:21:58:11 +0000] \"GET /users HTTP/1.1\" 404 144\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:21:58:54 +0000] \"OPTIONS /token HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"[Wed Jan 08 2020 17:58:54 GMT-0400 (GMT-04:00)] Executing (default): SELECT `id`, `name`, `email`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `Users` WHERE `Users`.`email` = 'lms2@icomp.ufam.edu.br';","level":"info"}
+{"message":"::1 - - [08/Jan/2020:21:58:54 +0000] \"POST /token HTTP/1.1\" 401 12\n","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `title` VARCHAR(255) NOT NULL, `done` TINYINT(1) NOT NULL DEFAULT 0, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`tasks`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_LIST(`users`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"[Wed Jan 08 2020 18:34:42 GMT-0400 (GMT-04:00)] Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)","level":"info"}
+{"message":"::1 - - [08/Jan/2020:22:36:16 +0000] \"OPTIONS /users HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"[Wed Jan 08 2020 18:36:16 GMT-0400 (GMT-04:00)] Executing (default): INSERT INTO `users` (`id`,`name`,`password`,`email`,`created_at`,`updated_at`) VALUES (NULL,$1,$2,$3,$4,$5);","level":"info"}
+{"message":"::1 - - [08/Jan/2020:22:36:16 +0000] \"POST /users HTTP/1.1\" 200 262\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:22:36:50 +0000] \"OPTIONS /token HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:22:36:50 +0000] \"OPTIONS /token HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"[Wed Jan 08 2020 18:36:50 GMT-0400 (GMT-04:00)] Executing (default): SELECT `id`, `name`, `password`, `email`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `Users` WHERE `Users`.`email` = 'lms2@icomp.ufam.edu.br';","level":"info"}
+{"message":"[Wed Jan 08 2020 18:36:50 GMT-0400 (GMT-04:00)] Executing (default): SELECT `id`, `name`, `password`, `email`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `Users` WHERE `Users`.`email` = 'lms2@icomp.ufam.edu.br';","level":"info"}
+{"message":"::1 - - [08/Jan/2020:22:36:50 +0000] \"POST /token HTTP/1.1\" 401 12\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:22:36:50 +0000] \"POST /token HTTP/1.1\" 401 12\n","level":"info"}
+{"message":"::1 - - [08/Jan/2020:22:37:27 +0000] \"OPTIONS /token HTTP/1.1\" 204 0\n","level":"info"}
+{"message":"[Wed Jan 08 2020 18:37:27 GMT-0400 (GMT-04:00)] Executing (default): SELECT `id`, `name`, `password`, `email`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `Users` WHERE `Users`.`email` = 'lms2@icomp.ufam.edu.br';","level":"info"}
+{"message":"::1 - - [08/Jan/2020:22:37:27 +0000] \"POST /token HTTP/1.1\" 401 12\n","level":"info"}

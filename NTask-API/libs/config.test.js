@@ -6,6 +6,9 @@ module.exports = {
         dialect: "sqlite",
         storage: "ntask.sqlite",
         logging: false,
+        sync: {
+            force: true
+        },
         define: {
             underscored: true
         }

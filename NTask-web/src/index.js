@@ -1,3 +1,8 @@
+import App from "./app";
+
 window.onload = () => {
-    alert("Bem-vindo");
+    const main = document.querySelector("main");
+    const footer = document.querySelector("footer");
+
+    new App(main, footer).init();
 };

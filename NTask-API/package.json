@@ -5,13 +5,16 @@
     "author": "Linnik Maciel de Souza",
     "private": true,
     "scripts": {
-        "start": "set NODE_ENV=development & npm run apidoc & npm run clusters",
+        "start": "npm run apidoc & npm run clusters",
         "clusters": "nodemon clusters.js",
         "test": "SET NODE_ENV=test & mocha test/**/*.js",
         "apidoc": "apidoc -i routes/ -o public/apidoc"
     },
     "apidoc": {
-        "name": "Documentação - Node Task API"
+        "name": "Documentação - Node Task API",
+        "template": {
+            "forceLanguage": "pt_br"
+        }
     },
     "license": "ISC",
     "dependencies": {
